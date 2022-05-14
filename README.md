@@ -41,12 +41,15 @@ This should open the windows "run" window, open notepad and type "hello" into it
 **5.** Now let's get to the more "difficult" part. First thing that you should do, is downloading [flip software](https://www.microchip.com/en-us/development-tool/flip). This will allow you to "change" the arduino into a keybaord device.
 
 **6.** In the flip software from device selection pick `ATmega16U2`
+
 ![image 1](https://i.imgur.com/Oez1vri.png)
 
 **7.** Make sure your arduino is plugged in and connect pins like so to put it into DFU mode (disconnect the pins right after the arduino flashes led)
+
 ![image 2](https://i.imgur.com/BH90ilo.png)
 
 **8.** __Don't replug arduino__. In the flip software from the communication medium selection choose USB
+
 ![image 3](https://i.imgur.com/dEYQiCS.png)
 
 **9.** Download `Arduino-usbserial-uno.hex` and `Arduino-keyboard-0.3.hex` from the repository
@@ -54,6 +57,7 @@ This should open the windows "run" window, open notepad and type "hello" into it
 **10.** In the flip software click on `File > Load hex file` and browse for `Arduino-keyboard-0.3.hex`
 
 **11.** After the file is loaded click run
+
 ![image 4](https://i.imgur.com/R8obaqD.png)
 
 **12.** Replug your arduino and voilà!
